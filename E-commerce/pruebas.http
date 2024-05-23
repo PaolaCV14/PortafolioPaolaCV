@@ -1,0 +1,194 @@
+
+//Arreglo vacio
+GET http://localhost:3000/products/pag?start=0&&end=4
+
+
+###
+
+GET http://localhost:3000/products/length
+
+//Crear sin autenticacion
+###
+curl -X POST http://localhost:3000/admin/products \
+     -H "Content-Type: application/json" \
+     -H "x-auth: a" \
+     -d '{
+    "uuid": 1,
+    "title": "Air_Force_1_High_50_Years_Of_Hip_Hop",
+    "description": "Tenis color azul con negro y blanco.",
+    "imageUrl": "https://lc.cx/PVRkQP",
+    "unit": "par",
+    "stock": 3,
+    "price": 3499,
+    "category": "AirForce"
+} '
+
+
+//Crear 5 productos
+###
+curl -X POST http://localhost:3000/admin/products \
+     -H "Content-Type: application/json" \
+     -H "x-auth: admin" \
+     -d '{
+    "uuid": 1,
+    "title": "Air_Force_1_High_50_Years_Of_Hip_Hop",
+    "description": "Tenis color azul con negro y blanco.",
+    "imageUrl": "https://lc.cx/PVRkQP",
+    "unit": "par",
+    "stock": 3,
+    "price": 3499,
+    "category": "AirForce"
+} '
+
+###
+curl -X POST http://localhost:3000/admin/products \
+     -H "Content-Type: application/json" \
+     -H "x-auth: admin" \
+     -d '{
+    "uuid": 2,
+    "title": "Nike_Air_Force_1_Shadow",
+    "description": "Tenis color azul, blanco y detalles verse y rosas.",
+    "imageUrl": "https://lc.cx/PVRkQP",
+    "unit": "par",
+    "stock": 4,
+    "price": 1199,
+    "category": "AirForce"
+} '
+
+###
+curl -X POST http://localhost:3000/admin/products \
+     -H "Content-Type: application/json" \
+     -H "x-auth: admin" \
+     -d '{
+    "uuid": 3,
+    "title": "Nike_Air_Max_270_React",
+    "description": "Tenis color azul y negro.",
+    "imageUrl": "https://lc.cx/PVRkQP",
+    "unit": "par",
+    "stock": 2,
+    "price": 1575,
+    "category": "AirMax"
+} '
+
+###
+
+curl -X POST http://localhost:3000/admin/products \
+     -H "Content-Type: application/json" \
+     -H "x-auth: admin" \
+     -d '{
+    "uuid": 4,
+    "title": "Nike_Air_Force_2_Shadow",
+    "description": "Tenis color blanco y detalles verse y rosas.",
+    "imageUrl": "https://lc.cx/PVRkQP",
+    "unit": "par",
+    "stock": 4,
+    "price": 2199,
+    "category": "AirForce"
+} '
+
+
+###
+curl -X POST http://localhost:3000/admin/products \
+     -H "Content-Type: application/json" \
+     -H "x-auth: admin" \
+     -d '{
+    "uuid": 5,
+    "title": "Nike_Dunk_Low_Reverse_Brazil",
+    "description": "Tenis color brazil.",
+    "imageUrl": "https://lc.cx/PVRkQP",
+    "unit": "par",
+    "stock": 5,
+    "price": 1450,
+    "category": "Dunk"
+} '
+
+//Delete 
+//sin admin
+###
+curl -X DELETE http://localhost:3000/admin/products/4 \
+     -H "x-auth: dmin" 
+
+//con admin
+###
+curl -X DELETE http://localhost:3000/admin/products/4 \
+     -H "x-auth: admin" 
+
+//Mostrar producto por Id
+###
+GET http://localhost:3000/products/2
+
+//Mostarr con filter
+###
+GET http://localhost:3000/products/filter?category=AirForce&&title=Air_Force_1_High_50_Years_Of_Hip_Hop
+
+
+//Editar nombre
+//sin admin
+###
+curl -X PUT http://localhost:3000/admin/products/2 \
+     -H "Content-Type: application/json" \
+     -H "x-auth: adn" \
+     -d '{
+            "title": "Actualizado_Nike_Air_Force_Shadow1"
+         }'
+
+//con admin
+###
+curl -X PUT http://localhost:3000/admin/products/2 \
+     -H "Content-Type: application/json" \
+     -H "x-auth: admin" \
+     -d '{
+            "title": "Actualizado_Nike_Air_Force_Shadow1"
+         }'
+
+
+//Ver que todo en orden
+###
+GET http://localhost:3000/products
+
+//Anadir al carrito
+###
+POST http://localhost:3000/products/cart HTTP/1.1
+Content-Type: application/json 
+
+[
+    {
+        "uuid": "1",
+        "quantity": 2
+    },
+        {
+        "uuid": "2",
+        "quantity": 3
+    },
+    {
+        "uuid": "3",
+        "quantity": 1
+    }
+]
+
+//Producto inexistente
+###
+GET http://localhost:3000/products/7
+
+//Anadir al carrito con error
+###
+POST http://localhost:3000/products/cart HTTP/1.1
+Content-Type: application/json 
+
+[
+    {
+        "uuid": "7",
+        "quantity": 2
+    }  
+    
+]
+
+
+
+
+
+
+
+
+
+
