@@ -1,0 +1,15 @@
+.carousel-inner img {
+    height: 100%;
+    width: auto;
+    object-fit: cover; 
+}
+
+button.no-outline {
+    border: none;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px; 
+  }
