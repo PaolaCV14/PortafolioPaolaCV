@@ -1,0 +1,93 @@
+[
+  {
+    "uuid": 1,
+    "title": "Air Force 1 High 50 Years Of Hip Hop",
+    "description": "Tenis color azul con negro y blanco.",
+    "imageUrl": "https://www.innvictus.com/medias/IN-FB2049-001-1.jpg?context=bWFzdGVyfGltYWdlc3wxNTM2Mzd8aW1hZ2UvanBlZ3xpbWFnZXMvaDNiL2g2ZC8xMTc2NDAwNjI1NjY3MC5qcGd8MDVmODIzMDc1NmNjMmZhYTAyMzZiM2VlMjViNjhlZGRiZmUyZDY1NjM3MzZhNmQyZWMzODI1MzZjN2Y3NDRiNg",
+    "unit": "par",
+    "stock": 3,
+    "price": 3499,
+    "category": "WOMAN"
+  },
+  {
+    "uuid": 2,
+    "title": "Nike Air Force 1 Shadow",
+    "description": "Tenis color azul, blanco y detalles verse y rosas.",
+    "imageUrl": "https://www.innvictus.com/medias/tenis-nike-air-force-1-shadow-in-CU8591-101-1.png?context=bWFzdGVyfGltYWdlc3wxMDc3MjN8aW1hZ2UvcG5nfGltYWdlcy9oODQvaDI4LzEwMDA1MTk2NjM2MTkwLnBuZ3xjZTYwYTBhMGE2ZTcxZmE1ZGY4MjFhYWIwNDhlMWI0MmYxOTNhZWRjM2QxZDcyM2Q2YjMxMjIyOGZlYmYxZmNl",
+    "unit": "par",
+    "stock": 4,
+    "price": 1199,
+    "category": "MAN"
+  },
+  {
+    "uuid": 3,
+    "title": "Nike Air Max 270 React",
+    "description": "Tenis color azul y negro.",
+    "imageUrl": "https://www.innvictus.com/medias/tenis-nike-air-max-270-react-in-CJ0619-001-1.png?context=bWFzdGVyfGltYWdlc3w5Mjk5M3xpbWFnZS9wbmd8aW1hZ2VzL2hkMy9oODgvOTg4Njk2NzUyOTUwMi5wbmd8NTdjNmQyZDU4NGE3Y2Q5YTJlYmU3ZDcyZWM1MzcwODljNzNlOGQ5MTA3NmZjOTI1Yjk2YTlmODQ3YWExZjMyZQ",
+    "unit": "par",
+    "stock": 2,
+    "price": 1575,
+    "category": "WOMAN"
+  },
+  {
+    "uuid": 4,
+    "title": "Nike Dunk Low Reverse Brazil",
+    "description": "Tenis color es Brazil.",
+    "imageUrl": "https://www.innvictus.com/medias/IN-DV0833-300-1.jpg?context=bWFzdGVyfGltYWdlc3wxMDcxNHxpbWFnZS9qcGVnfGltYWdlcy9oMjQvaGUxLzExNTU4OTA3MjgxNDM4LmpwZ3w0OWVhYmE4NWJiMjZkMWY1Zjk2ODM0ODlmNDQ2NWZiZjU0OTQwMTk3YTcwZGNjNzhhMzk1MzBhMjhlMmZjNDkx",
+    "unit": "par",
+    "stock": 3,
+    "price": 2499,
+    "category": "MAN"
+  },
+  {
+    "uuid": 5,
+    "title": "Nike Air Force 1 MID '07",
+    "description": "Tenis color marron",
+    "imageUrl": "https://www.innvictus.com/medias/IN-DJ9158-200-1.jpg?context=bWFzdGVyfGltYWdlc3wxMDIwMjl8aW1hZ2UvanBlZ3xpbWFnZXMvaDZhL2gzMy8xMTIzOTg5MjMyMDI4Ni5qcGd8Yzk5NDJiNjc1MTAyMDdkMDAzNGUwNDE3OWU5ZjZhY2YwYzI3MmIyMTRmMzI2ODFmMmRjNzlhOGM0ZDZjYjcxMg",
+    "unit": "par",
+    "stock": 5,
+    "price": 1979,
+    "category": "WOMAN"
+  },
+  {
+    "uuid": 6,
+    "title": "Blazer Mid Pro Club Remastered",
+    "description": "Tenis color escala de grises",
+    "imageUrl": "https://www.innvictus.com/medias/tenis-nike-blazer-mid-77-remastered-in-DQ7673-002-1.jpg?context=bWFzdGVyfGltYWdlc3wxMjMxNTV8aW1hZ2UvanBlZ3xpbWFnZXMvaDBhL2g4Ni8xMTQ4NTAwNjk4NzI5NC5qcGd8ZWYzNWM1MjA4M2Q2N2NjMDcwMTcwNzVkMTRlN2Y0YmI2ODRkNGQ1MjQ5MDg3YTQxNzFmMzkxNzZmMzU0NDcwMA",
+    "unit": "par",
+    "stock": 1,
+    "price": 2300,
+    "category": "MAN"
+  },
+  {
+    "uuid": 7,
+    "title": "Nike Blzer Mid 77 Vintage",
+    "description": "Tenis color negro",
+    "imageUrl": "https://www.innvictus.com/medias/IN-BQ6806-002-1.png?context=bWFzdGVyfGltYWdlc3w4ODAwNnxpbWFnZS9wbmd8aW1hZ2VzL2hhNS9oMWYvMTAxODI3NDkwMjgzODIucG5nfGE0MjNiMzU4NmRjNzM2MzA3ZTA2OTMxMTBhYWE0OGY4NjZlYjU5YjlhZDFkZDVlMDhlNDhkYWI1YjE3N2E3MjY",
+    "unit": "par",
+    "stock": 2,
+    "price": 3999,
+    "category": "WOMAN"
+  },
+  {
+    "uuid": 8,
+    "title": "Nike Air Jordan 1 Red",
+    "description": "Tenis color rojo y blanco",
+    "imageUrl": "https://www.innvictus.com/medias/tenis-nike-air-jordan-1-retro-high-og-in-555088-602-1.png?context=bWFzdGVyfGltYWdlc3wyNjMyM3xpbWFnZS9wbmd8aW1hZ2VzL2hiMC9oMGQvMTAxMDQyNTM4NDE0MzgucG5nfDZjMDc1ZDEzZDA0YTJmN2IwNjE0MTQxZWYxNmQyOWVlNzBkYTgwYWFkOTRjMDM3OGNiNzlhOTVkZGRhMTI1NTQ",
+    "unit": "par",
+    "stock": 4,
+    "price": 4500,
+    "category": "MAN"
+  },
+  {
+    "uuid": 9,
+    "title": "Nike Air 1 Color Shadow",
+    "description": "Tenis color blanco con naranja y rosa",
+    "imageUrl": "https://www.innvictus.com/medias/IN-DZ1847-100-1.jpg?context=bWFzdGVyfGltYWdlc3w5MjUzMXxpbWFnZS9qcGVnfGltYWdlcy9oYzMvaDU3LzExOTk4Mzc5NzM3MTE4LmpwZ3wzNDg2YjJkYjE1MmE4NmY1YzcyYzEwMmYxMTBkNzM2ZmZjMjg2NmRhODUzMDIzOThiMDk3NjY0ZWQwZDJlNDRh",
+    "unit": "par",
+    "stock": 4,
+    "price": 1859,
+    "category": "WOMAN"
+  }
+  
+]
