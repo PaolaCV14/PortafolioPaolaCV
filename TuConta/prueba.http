@@ -1,0 +1,33 @@
+GET http://localhost:3000/api/gastos
+
+
+###
+POST http://localhost:3000/consultar HTTP/1.1
+Content-Type: application/json 
+
+{   
+    "User": "Juanito",
+    "Empresa": "Mi Macro",
+    "Fecha": "9/04/2024",
+    "Concepto": "HOLA",
+    "Cantidad": "9.50",
+    "TipoGasto": "Transporte",
+    "TipoPago": "Semanal"
+}
+
+
+###
+GET http://localhost:3000/api/usuarios
+
+
+###
+POST http://localhost:3000/registrar HTTP/1.1
+Content-Type: application/json 
+
+{   
+    "usuario": "Guti",
+    "password": "SudoPuty",
+    "correo": "guti@gmail.com"
+}
+
+
