@@ -12,9 +12,4 @@ E-commerce (Desarrollado en HTML, CSS, JavaScript): Para la parte WEB como prime
 
 App Financiera (Desarrollado en HTML, CSS, JavaScript): A diferencia del e-commerce, esta aplicación también utiliza una base de datos no relacional (MongoDB) y algunos métodos para simular inicio de sesión y registro de usuarios. 
 
-*En proceso
-
-Aplicación Auto-Partes (Desarrollado en HTML, CSS, JavaScript): En esta aplicación se esta trabajando la parte de mostrar datos recuperados de una base de datos en SQL donde de manera personalizada para cada cliente se presente sus compras a la empresa de auto-partes.
-
-
 
